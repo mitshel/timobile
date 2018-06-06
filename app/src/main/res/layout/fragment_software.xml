@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/software_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background_category"
+                android:padding="2dp"
+                android:text=""
+                android:textStyle="bold" />
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="4dp"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textView"-->
+                    <!--style="@style/tabNameTextView"-->
+                    <!--android:text="Наименование:" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/obj_ID"-->
+                    <!--style="@style/infoTextView" />-->
+
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="4dp"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<TextView-->
+                    <!--style="@style/tabNameTextView"-->
+                    <!--android:text="Версия ПО: " />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/type_name"-->
+                    <!--style="@style/infoTextView" />-->
+
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="4dp"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<TextView-->
+                    <!--style="@style/tabNameTextView"-->
+                    <!--android:text="Группа AD:" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/mark_name"-->
+                    <!--style="@style/infoTextView" />-->
+            <!--</LinearLayout>-->
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

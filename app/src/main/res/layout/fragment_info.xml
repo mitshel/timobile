@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/background_category"
+            android:padding="2dp"
+            android:text="Информация об оргтехнике"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/tabNameTextView"
+                android:text="obj id" />
+
+            <TextView
+                android:id="@+id/obj_ID"
+                style="@style/infoTextView" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/tabNameTextView"
+                android:text="Тип: " />
+
+            <TextView
+                android:id="@+id/type_name"
+                style="@style/infoTextView" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/tabNameTextView"
+                android:text="Модель:" />
+
+            <TextView
+                android:id="@+id/mark_name"
+                style="@style/infoTextView" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/tabNameTextView"
+                android:text="Наименование:" />
+
+            <TextView
+                android:id="@+id/obj_name"
+                style="@style/infoTextView" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/tabNameTextView"
+                android:text="Инв.N:" />
+
+            <TextView
+                android:id="@+id/invN"
+                style="@style/infoTextView" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                style="@style/tabNameTextView"
+                android:text="Номенк. N:" />
+
+            <TextView
+                android:id="@+id/nomnum"
+                style="@style/infoTextView" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                style="@style/tabNameTextView"
+                android:text="S/N:" />
+
+            <TextView
+                android:id="@+id/sn"
+                style="@style/infoTextView" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/tabNameTextView"
+                android:text="P/N:" />
+
+            <TextView
+                android:id="@+id/pn"
+                style="@style/infoTextView" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/tabNameTextView"
+                android:text="N, дата пломбы:" />
+
+            <TextView
+                android:id="@+id/seal_N"
+                style="@style/infoTextView" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/tabNameTextView"
+                android:text="IP адрес:" />
+
+            <TextView
+                android:id="@+id/Ip_addr"
+                style="@style/infoTextView" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/background_category"
+            android:padding="2dp"
+            android:text="Бухгалтерские данные"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                style="@style/tabNameTextView"
+                android:text="Наименование:" />
+
+            <TextView
+                android:id="@+id/bux_name"
+                style="@style/infoTextView" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/tabNameTextView"
+                android:text="Характеристика:" />
+
+            <TextView
+                android:id="@+id/bux_xar"
+                style="@style/infoTextView" />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/background_category"
+            android:padding="2dp"
+            android:text="Местонахождение объекта"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                style="@style/tabNameTextView"
+                android:text="Информация об ответственном лице: " />
+
+            <TextView
+                android:id="@+id/infoAboutMan"
+                style="@style/infoTextView" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/tabNameTextView"
+                android:text="Филиал:" />
+
+            <TextView
+                android:id="@+id/filial_name"
+                style="@style/infoTextView" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/tabNameTextView"
+                android:text="Город:" />
+
+            <TextView
+                android:id="@+id/Town_name"
+                style="@style/infoTextView" />
+
+        </LinearLayout>
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="4dp"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<TextView-->
+        <!--style="@style/tabNameTextView"-->
+        <!--android:text="Промпл:" />-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/"-->
+        <!--style="@style/infoTextView" />-->
+        <!--</LinearLayout>-->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/tabNameTextView"
+                android:text="Здание:" />
+
+            <TextView
+                android:id="@+id/building_name"
+                style="@style/infoTextView" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/tabNameTextView"
+                android:text="Служба:" />
+
+            <TextView
+                android:id="@+id/otv_serv_name"
+                style="@style/infoTextView" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                style="@style/tabNameTextView"
+                android:text="МОЛ: " />
+
+            <TextView
+                android:id="@+id/Mol_name"
+                style="@style/infoTextView" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/background_category"
+            android:padding="2dp"
+            android:text="Информация о приходе"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/tabNameTextView"
+                android:text="Дата Прихода: " />
+
+            <TextView
+                android:id="@+id/d_prih"
+                style="@style/infoTextView" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                style="@style/tabNameTextView"
+                android:text="Наклад:" />
+
+            <TextView
+                android:id="@+id/nnakl"
+                style="@style/infoTextView" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/tabNameTextView"
+                android:text="Год выпуска: " />
+
+            <TextView
+                android:id="@+id/y_vip"
+                style="@style/infoTextView" />
+
+        </LinearLayout>
+
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="4dp"-->
+        <!--android:orientation="horizontal">-->
+
+
+        <!--<TextView-->
+        <!--style="@style/tabNameTextView"-->
+        <!--android:text="Поставщик" />-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/"-->
+        <!--style="@style/infoTextView" />-->
+
+        <!--</LinearLayout>-->
+    </LinearLayout>
+</ScrollView>

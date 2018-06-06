@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textStyle="bold"
+                style="@style/tabNameTextView"
+                android:text="id" />
+
+            <TextView
+                android:id="@+id/conf_id"
+                style="@style/infoTextView" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <TextView android:textStyle="bold"
+                style="@style/tabNameTextView"
+                android:text="CPU" />
+
+            <TextView
+                android:id="@+id/cpu"
+                style="@style/infoTextView" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <TextView android:textStyle="bold"
+                style="@style/tabNameTextView"
+                android:text="Память в МБ" />
+
+            <TextView
+                android:id="@+id/memory_in_mb"
+                style="@style/infoTextView" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <TextView android:textStyle="bold"
+                style="@style/tabNameTextView"
+                android:text="HDD память" />
+
+            <TextView
+                android:id="@+id/Total_HDD_in_Mb"
+                style="@style/infoTextView" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <TextView android:textStyle="bold"
+                style="@style/tabNameTextView"
+                android:text="Имя компьютера" />
+
+            <TextView
+                android:id="@+id/computer_name"
+                style="@style/infoTextView" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+
+            <TextView android:textStyle="bold"
+                style="@style/tabNameTextView"
+                android:text="IP адрес" />
+
+            <TextView
+                android:id="@+id/ip_addr"
+                style="@style/infoTextView" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+
+            <TextView android:textStyle="bold"
+                style="@style/tabNameTextView"
+                android:text="Имя файла" />
+
+            <TextView
+                android:id="@+id/filename"
+                style="@style/infoTextView" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+
+            <TextView android:textStyle="bold"
+                style="@style/tabNameTextView"
+                android:text="MAC адрес" />
+
+            <TextView
+                android:id="@+id/mac_addr"
+                style="@style/infoTextView" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <TextView android:textStyle="bold"
+                style="@style/tabNameTextView"
+                android:text="Производитель CPU" />
+
+            <TextView
+                android:id="@+id/cpu_brandname"
+                style="@style/infoTextView" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <TextView android:textStyle="bold"
+                style="@style/tabNameTextView"
+                android:text="CPU в Mhz" />
+
+            <TextView
+                android:id="@+id/cpu_freq_in_mhz"
+                style="@style/infoTextView" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <TextView android:textStyle="bold"
+                style="@style/tabNameTextView"
+                android:text="Текущее имя пользователя" />
+
+            <TextView
+                android:id="@+id/current_user_name"
+                style="@style/infoTextView" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <TextView android:textStyle="bold"
+                style="@style/tabNameTextView"
+                android:text="Дата записи" />
+
+            <TextView
+                android:id="@+id/record_date"
+                style="@style/infoTextView" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <TextView android:textStyle="bold"
+                style="@style/tabNameTextView"
+                android:text="Информация" />
+
+            <TextView
+                android:id="@+id/info"
+                style="@style/infoTextView" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <TextView android:textStyle="bold"
+                style="@style/tabNameTextView"
+                android:text="Дата записи" />
+
+            <TextView
+                android:id="@+id/load_date"
+                style="@style/infoTextView" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
